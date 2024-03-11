@@ -1,0 +1,22 @@
+site_name: 2024年度 セキュリティネットワーク科
+use_directory_urls: false
+theme:
+  name: material
+  palette:
+    primary: green
+  alternate:
+    - name: Japanese
+      link: /
+      lang: ja
+  features:
+    - navigation.tabs
+    - content.code.copy
+plugins:
+  search:
+    lang: 'ja'
+markdown_extensions:
+    # コードハイライトの設定
+    - codehilite:
+        noclasses: true
+        pygments_style: colorful
+        linenums: false
