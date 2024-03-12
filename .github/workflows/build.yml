@@ -1,0 +1,39 @@
+name: Sync Mkdocs build to S3
+on:
+  push:
+    branches:
+      - main
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git clone the repository
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+          architecture: 'x64'
+
+      - name: Install MkDocs
+        run: |
+          pip install -U mkdocs mkdocs-material
+
+      - name: Build
+        run: |
+          mkdocs build
+
+      - name: Sync html to s3
+        run: |
+          aws s3 sync ./site s3://${{ secrets.BUCKET_NAME }}/site --delete --quiet
+          # aws cloudfront create-invalidation --region ap-northeast-1 --distribution-id E2PYBJUQPMFZP1 --paths "/*"
