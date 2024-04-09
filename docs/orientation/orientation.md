@@ -15,6 +15,7 @@
 
 ## 授業内容の説明
 本年度は以下の内容で授業を行います。
+
 - AWS Academy Cloud Foundations
 - AWS Academy Cloud Security Foundations
 - [Kintone](https://kintone.cybozu.co.jp/) を利用した業務システムの構築
@@ -22,6 +23,7 @@
 
 ## AWS Academy のアカウントの登録
 AWS Academy の以下の3つのコースにみなさんのアカウントを登録します。
+
 - AWS Academy Cloud Foundations
 - AWS Academy Cloud Security Foundations
 - AWS Academy Learner Lab
