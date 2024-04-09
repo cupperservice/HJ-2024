@@ -9,7 +9,6 @@ theme:
       link: /
       lang: ja
   features:
-    - navigation.tabs
     - content.code.copy
 plugins:
   search:
