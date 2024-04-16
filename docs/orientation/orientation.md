@@ -31,4 +31,8 @@ AWS Academy の以下の3つのコースにみなさんのアカウントを登�
 みなさんのメールアドレス宛に AWS Academy への招待のメールが届くので、そのメールに従ってアカウントを登録してください。
 
 ## AWS Academy Learner Lab を利用する
-AWS Learner Lab にログインして、AWS Management Console を利用してみます。
+AWS Academy Learner Lab は、AWS Management Console にログインするための環境です。  
+この環境を利用して、AWS のサービスを学びます。
+
+- AWS Learner Lab にログインして、AWS Management Console を利用してみます。
+- [EC2 を起動する](https://docs.kawashima-kazuh.com/hands-on/00.EC2%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B/index.html)
