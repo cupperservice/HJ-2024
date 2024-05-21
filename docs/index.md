@@ -4,3 +4,4 @@
 - 2024/4/23: [第1回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0423.md)
 - 2024/5/7: [第2回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0507.md)
 - 2024/5/14: [第3回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0514.md)
+- 2024/5/21: [第4回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0521.md)
