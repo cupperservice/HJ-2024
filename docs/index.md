@@ -5,3 +5,16 @@
 - 2024/5/7: [第2回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0507.md)
 - 2024/5/14: [第3回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0514.md)
 - 2024/5/21: [第4回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0521.md)
+- 2024/5/28: [第5回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0528.md)
+
+## 課題一覧
+### 知識確認テスト
+- Moudle 1 の知識確認テスト
+- Module 2 の知識確認テスト
+- Moudle 3 の知識確認テスト
+- Moudle 4 の知識確認テスト
+- Moudle 5 の知識確認テスト
+
+### ラボ
+- ラボ 1 : AWS IAM の紹介
+- ラボ 2 : VPC を構築し、ウェブサーバーを起動する
