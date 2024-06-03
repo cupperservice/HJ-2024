@@ -6,6 +6,7 @@
 - 2024/5/14: [第3回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0514.md)
 - 2024/5/21: [第4回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0521.md)
 - 2024/5/28: [第5回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0528.md)
+- 2024/6/4: [第6回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0604.md)
 
 ## 課題一覧
 ### 知識確認テスト
