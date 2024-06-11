@@ -17,6 +17,7 @@
 - Moudle 4 の知識確認テスト
 - Moudle 5 の知識確認テスト
 - Module 6 知識確認テスト
+- Module 7 知識確認テスト
 
 ### ラボ
 - ラボ 1 : AWS IAM の紹介
@@ -24,3 +25,4 @@
 - ラボ 3: Amazon EC2 の概要
 - アクティビティ: AWS Lambda
 - アクティビティ: AWS Elastic Beanstalk [Activity 2]
+- ラボ 4 : EBS を使用する  
