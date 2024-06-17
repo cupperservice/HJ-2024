@@ -11,6 +11,9 @@
 - 2024/6/18: [第8回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0618.md)
 
 ## 課題一覧
+合格点は 80点です。  
+80点未満の場合は、再提出してください。
+
 ### 知識確認テスト
 - Moudle 1 の知識確認テスト
 - Module 2 の知識確認テスト
