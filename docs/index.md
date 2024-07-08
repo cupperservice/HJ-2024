@@ -11,6 +11,8 @@
 - 2024/6/18: [第8回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0618.md)
 - 2024/6/25: [第9回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0625.md)
 
+- 2024/7/9: [第1回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0709.md)
+
 ## 課題一覧
 合格点は 80点です。  
 80点未満の場合は、再提出してください。
@@ -37,3 +39,10 @@
 - ラボ 4 : EBS を使用する  
 - ラボ 5 : データベースサーバーを構築し、アプリケーションを使用してデータベースを操作する
 - ラボ 6 :アーキテクチャのスケールと負荷分散を行う
+
+### お知らせ
+#### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
+現在、AWS Academy Cloud Foundations の受講を終えただけでは、AWS 認定クラウドプラクティショナーの割引バウチャーチケットの発行はしていないそうです。
+
+AWS 認定クラウドプラクティショナーを受講で割引バウチャーを利用したい場合は以下に書かれたコースを受講してバウチャーを取得してください。  
+https://www.awsacademy.com/forums/s/feed/0D5KY00000HsH960AF　
