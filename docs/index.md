@@ -18,6 +18,7 @@
 80点未満の場合は、再提出してください。
 
 ### 知識確認テスト
+#### Cloud Foundations
 - Moudle 1 の知識確認テスト
 - Module 2 の知識確認テスト
 - Moudle 3 の知識確認テスト
@@ -29,6 +30,10 @@
 - Module 9 知識確認テスト
 - Module 10 知識確認テスト
 - コース評価
+
+#### Security Foundations
+- Module 2 ナレッジチェック
+- Module 3 ナレッジチェック
 
 ### ラボ
 - ラボ 1 : AWS IAM の紹介
