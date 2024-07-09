@@ -52,9 +52,9 @@
 AWS 認定クラウドプラクティショナーを受講で割引バウチャーを利用したい場合は以下に書かれたコースを受講してバッチを取得するとバウチャーを受け取るための要件を記載したメールが届きます。
 
 1. [AWS Educate](https://www.awseducate.com/signin/SiteLogin?amp%3Bbinding=HttpPost&%3Binresponseto=_f4c91844-4073-462a-9523-8176c7461817&language=en_US&startURL=%2Fstudent%2Fidp%2Flogin%3Fapp%3D0spo0000000PDCe)で以下のコースを受講してください。
-  - [Introduction to Generative Artificial Intelligence](https://awseducate.instructure.com/courses/993)
-  - [Introduction to Amazon CodeWhisperer](https://awseducate.instructure.com/courses/994)
-  - [Using Amazon CodeWhisperer](https://awseducate.instructure.com/courses/995)
+    - [Introduction to Generative Artificial Intelligence](https://awseducate.instructure.com/courses/993)
+    - [Introduction to Amazon CodeWhisperer](https://awseducate.instructure.com/courses/994)
+    - [Using Amazon CodeWhisperer](https://awseducate.instructure.com/courses/995)
 
 2. [AWS Skill Builder](https://explore.skillbuilder.aws/learn/signin) で以下のコースを受講してください。(アカウントは作成してください)
-  - [Exam Prep Official Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
+    - [Exam Prep Official Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
