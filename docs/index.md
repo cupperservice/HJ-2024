@@ -37,6 +37,7 @@
 - Module 3 ナレッジチェック
 
 ### ラボ
+#### Cloud Foundations
 - ラボ 1 : AWS IAM の紹介
 - ラボ 2 : VPC を構築し、ウェブサーバーを起動する
 - ラボ 3: Amazon EC2 の概要
@@ -45,6 +46,8 @@
 - ラボ 4 : EBS を使用する  
 - ラボ 5 : データベースサーバーを構築し、アプリケーションを使用してデータベースを操作する
 - ラボ 6 :アーキテクチャのスケールと負荷分散を行う
+
+#### Security Foundations
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
