@@ -12,6 +12,7 @@
 - 2024/6/25: [第9回: AWS Academy Cloud Foundations](./aws-academy-cloud-foundations/0625.md)
 
 - 2024/7/9: [第1回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0709.md)
+- 2024/7/16: [第2回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0716.md)
 
 ## 課題一覧
 合格点は 80点です。  
