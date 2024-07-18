@@ -13,6 +13,7 @@
 
 - 2024/7/9: [第1回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0709.md)
 - 2024/7/16: [第2回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0716.md)
+- 2024/7/23: [第2回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-foundations/0723.md)
 
 ## 課題一覧
 合格点は 80点です。  
@@ -35,6 +36,7 @@
 #### Security Foundations
 - Module 2 ナレッジチェック
 - Module 3 ナレッジチェック
+- Module 4 ナレッジチェック
 
 ### ラボ
 #### Cloud Foundations
@@ -48,6 +50,7 @@
 - ラボ 6 :アーキテクチャのスケールと負荷分散を行う
 
 #### Security Foundations
+- ラボ 3.1: リソースベースのポリシーを使用して S3 バケットをセキュリティ保護する  
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
