@@ -37,6 +37,8 @@
 - Module 2 ナレッジチェック
 - Module 3 ナレッジチェック
 - Module 4 ナレッジチェック
+- Module 5 ナレッジチェック
+- Module 6 ナレッジチェック
 
 ### ラボ
 #### Cloud Foundations
@@ -51,6 +53,7 @@
 
 #### Security Foundations
 - ラボ 3.1: リソースベースのポリシーを使用して S3 バケットをセキュリティ保護する  
+- ラボ 4.1: セキュリティグループを使用して VPC リソースを保護する
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
