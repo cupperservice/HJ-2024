@@ -59,6 +59,8 @@
 #### Security Foundations
 - ラボ 3.1: リソースベースのポリシーを使用して S3 バケットをセキュリティ保護する  
 - ラボ 4.1: セキュリティグループを使用して VPC リソースを保護する
+- ラボ 5.1: AWS KMS を使用した保管中のデータの暗号化
+- ラボ 6.1: CloudTrail と CloudWatch を使用してモニタリングとアラートを行う
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
