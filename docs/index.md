@@ -45,6 +45,8 @@
 - Module 4 ナレッジチェック
 - Module 5 ナレッジチェック
 - Module 6 ナレッジチェック
+- Module 7 ナレッジチェック
+- コースの認定テスト
 
 ### ラボ
 #### Cloud Foundations
@@ -62,6 +64,7 @@
 - ラボ 4.1: セキュリティグループを使用して VPC リソースを保護する
 - ラボ 5.1: AWS KMS を使用した保管中のデータの暗号化
 - ラボ 6.1: CloudTrail と CloudWatch を使用してモニタリングとアラートを行う
+- ラボ 7.1: AWS Config と Lambda を使用してインシデントを修復する
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
