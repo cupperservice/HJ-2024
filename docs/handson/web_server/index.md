@@ -1,5 +1,6 @@
 # いろいろな方法で Web サーバを起動する
-AWS が提供しているいろいろなコンピューティング環境を使用して Web API を構築してみる。
+AWS が提供している以下のコンピューティング環境を使用して Web API を構築してみる。
+
 - EC2
 - ECS
 - Lambda
@@ -10,6 +11,13 @@ AWS が提供しているいろいろなコンピューティング環境を使�
 3. Name に `dev` と入力する
 4. Network settings で Secure Shell (SSH) を選択する
 5. [Create] をクリックする
+
+## Cloud9 に yarn をインストールする
+以下のコマンドを実行して yarn をインストールする。
+
+```bash
+sudo npm install -g yarn
+```
 
 ## Seucirty Group を用意する
 1. VPC サービスを開く
@@ -28,32 +36,10 @@ AWS が提供しているいろいろなコンピューティング環境を使�
   - Inbound rules: 
     - Type: Custom TCP, Port range: 3000, Source: Anywhere-IPv4
 
-## Web サーバを構築する
-### EC2
-EC2 インスタンスを作成して、Web API を構築する。
-
-#### Security Group を作成する
-1. VPC サービスを開く
-2. 左のナビゲーションメニューから [Security groups] をクリックする
-3. [Create security group] をクリックする
-4. Security group name に `web-api` と入力する
-5. Description に `Web API` と入力する
-6. VPC は `default` を選択する
-7. Inbound rules で以下のルールを追加する
-   - Type: Custom TCP, Port range: 3000, Source: My IP
-
-#### EC2 インスタンスを作成する
-1. EC2 サービスを開く
-2. [Launch instance] をクリックする
-3. Name に `web-api` と入力する
-4. Amazon Machine Image (AMI) で Amazon Linux 2023 を選択する
-5. Instance type で t2.micro を選択する
-6. Key pair (login) で 'vockey' を選択する
-
-### アプリケーションを作成する
+## アプリケーションを作成する
 Node.js と Lambda を使用して Web API を作成する。
 
-#### Node.js
+### Node.js
 1. プロジェクトを作成する
 ```bash
 yarn create hono myapp
@@ -138,7 +124,7 @@ curl コマンドでリクエストを送信してレスポンスを確認する
 }
 ```
 
-#### Lambda
+### Lambda
 ALB からリクエストを受け取る Lambda 関数を作成する。
 1. ディレクトリを作成する
 
@@ -204,12 +190,19 @@ yarn build
 
 `dist` の下に `index.zip` が作成される。
 
-### デプロイする
-#### EC2
+## デプロイする
+### EC2
+#### EC2 インスタンスを作成する
+1. EC2 サービスを開く
+2. [Launch instance] をクリックする
+3. Name に `web-api` と入力する
+4. Amazon Machine Image (AMI) で Amazon Linux 2023 を選択する
+5. Instance type で t2.micro を選択する
+6. Key pair (login) で 'vockey' を選択する
 
-#### ECS
+### ECS
 
-#### Lambda
+### Lambda
 Lambda 関数を作成する。
 1. Lambda サービスを開く
 2. 左のナビゲーションメニューから [Functions] をクリックする
