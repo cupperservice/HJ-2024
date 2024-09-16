@@ -21,6 +21,9 @@
 - 2024/7/30: [第4回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-security-foundations/0730.md)
 - 2024/9/10: [第5回: AWS Academy Cloud Security Foundations](./aws-academy-cloud-security-foundations/0910.md)
 
+## AWS ハンズオン
+- 2024/9/17: [EC2 で DB サーバを起動する / EC2 で Wordpress を起動する](./handson/0917.md)
+
 ## 課題一覧
 合格点は 80点です。  
 80点未満の場合は、再提出してください。
