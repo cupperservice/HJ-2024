@@ -67,7 +67,7 @@
 - ラボ 4.1: セキュリティグループを使用して VPC リソースを保護する
 - ラボ 5.1: AWS KMS を使用した保管中のデータの暗号化
 - ラボ 6.1: CloudTrail と CloudWatch を使用してモニタリングとアラートを行う
-- ラボ 7.1: AWS Config と Lambda を使用してインシデントを修復する
+- ラボ 7.1: AWS Config と Lambda を使用してインシデントを修復する -> AWS の問題で実施できないため提出は不要です。
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
