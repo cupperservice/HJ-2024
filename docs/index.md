@@ -69,6 +69,9 @@
 - ラボ 6.1: CloudTrail と CloudWatch を使用してモニタリングとアラートを行う
 - ラボ 7.1: AWS Config と Lambda を使用してインシデントを修復する -> AWS の問題で実施できないため提出は不要です。
 
+### AWS ハンズオン
+- EC2 で DB サーバを起動する / EC2 で Wordpress を起動する
+
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
 現在、AWS Academy Cloud Foundations の受講を終えただけでは、AWS 認定クラウドプラクティショナーの割引バウチャーチケットの発行はしていないそうです。
