@@ -8,12 +8,12 @@
     - Description: `For Application Server`
     - VPC: default
     - Inbound rule1:
-      - Type: SSH
-      - Source: Anywhere-IPv4
+        - Type: SSH
+        - Source: Anywhere-IPv4
     - Inbound rule2:
-      - Type: Custom TCP
-      - Port range: 3000
-      - Source: Anywhere-IPv4
+        - Type: Custom TCP
+        - Port range: 3000
+        - Source: Anywhere-IPv4
 
       __※ Outbound rules は変更しないこと！__
 
@@ -36,19 +36,8 @@
 - SSH で使用する秘密鍵は、AWS Academy の AWS Defails からダウンロードしてください。
 
 4. 作成した EC2 インスタンスに アプリケーションサーバを構築する  
-[hono の公式ページ](https://hono.dev/docs/getting-started/nodejs)
-    - 以下のコマンドを実行して `hono` をセットアップします。
-        ```
-        npm create hono@latest my-app
-        ```
-
-    - 以下のコマンドを実行して アプリケーションサーバを起動します。
-        ```
-        npm run dev
-        ```
-
-    - Web ブラウザで EC2 インスタンスの 3000 ポートにアクセスします。  
-    Web ブラウザに `{"message":"Hello Hono!"}` と表示されれば成功です。
+以下の手順に従ってアプリケーションサーバを構築してください  
+[アプリケーションサーバを作成する](./app.md)
 
 ## ロードバランサをセットアップする
 アプリケーションサーバにインターネットからの通信をルーティングするアプリケーションロードバランサ(ALB)をセットアップします。
@@ -58,8 +47,8 @@
     - Description: `For ALB`
     - VPC: default
     - Inbound rule1:
-      - Type: HTTP
-      - Source: Anywhere-IPv4
+        - Type: HTTP
+        - Source: Anywhere-IPv4
 
 2. セキュリティグループ(`app-server`) の Inbound rule を修正する  
     - 3000 ポートの Inbound rule を削除
@@ -68,9 +57,9 @@
         - Port range: 3000
         - Source: ALB のセキュリティグループ
 
-3. ALB を作成する
-
+3. ALB を作成する  
     Load Balancers から ALBを作成します。
+
     - Load balancer name: `app-alb`
     - Scheme: internet-facing
     - Load balancer IP address type: IPv4
@@ -79,7 +68,8 @@
     - Security group: 作成した ALB のセキュリティグループ  
       __default のセキュリティグループは削除すること__
 
-    Target groups からターゲットグループを作成します。
+    Target groups からターゲットグループを作成します。  
+
     - Target type: Instance
     - Target group name: `app-tg`
     - Protocol: HTTP
