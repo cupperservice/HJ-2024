@@ -9,47 +9,42 @@ Cloud 9 でアプリケーションサーバのコンテナイメージを作成
 2. コンテナイメージを作成する  
 以下の内容で `Dockerfile` を作成します。
 
-    ```dockerfile
-    FROM node:20-slim
-    WORKDIR /opt/app    
-
-    COPY package.json tsconfig.json ./
-    COPY src/ ./src/
-
-    RUN yarn
-
-    CMD ["npm", "run", "dev"]
-    ```
+```dockerfile
+FROM node:20-slim
+WORKDIR /opt/app    
+COPY package.json tsconfig.json ./
+COPY src/ ./src/
+RUN yarn
+CMD ["npm", "run", "dev"]
+```
 
 3. コンテナイメージをビルドする  
 以下のコマンドを実行してコンテナイメージをビルドします。
 
-    ```bash
-    docker build -t myapp .
-    ```
+```bash
+docker build -t myapp .
+```
 
 4. コンテナを起動する  
 以下のコマンドを実行してコンテナを起動します。
 
-    ```bash
-    docker run --name myapp -p 3000:3000 -d --rm myapp
-    ```
-
-    curl コマンドでリクエストを送信してレスポンスを確認する。
-
-    以下のレスポンスが帰ってくれば成功。  
-    ```json
-    {
-      "message": "Hello Hono!"
-    }
-    ```
+```bash
+docker run --name myapp -p 3000:3000 -d --rm myapp
+```
+curl コマンドでリクエストを送信してレスポンスを確認する。  
+以下のレスポンスが帰ってくれば成功。  
+```json
+{
+  "message": "Hello Hono!"
+}
+```
 
 5. コンテナを終了する
 以下のコマンドを実行してコンテナを終了します。
 
-    ```bash
-    docker stop myapp
-    ```
+```bash
+docker stop myapp
+```
 
 ## コンテナイメージを Elastic Container Registry に登録する
 1. リポジトリを作成する  
@@ -72,32 +67,32 @@ Elastic Container Service(ECS) サービスに移動してコンテナを起動�
 2. Task Definition を作成する  
 左のナビゲーションペインから `Task definitions` を選択して [Create new Task Definition] をクリックして以下の内容で Task Definition を作成します。
     - Task definition configuration
-      - Task definition family: `myapp-def`
+        - Task definition family: `myapp-def`
     - Infrastructure requirements
-      - Launch type: AWS Fargate
-      - Task role: LabRole
-      - Task execution role: LabRole
+        - Launch type: AWS Fargate
+        - Task role: LabRole
+        - Task execution role: LabRole
     - Container - 1
-      - Name: `myapp`
-      - Image URI: ECR に登録したコンテナイメージの URI
-      - Container port: 3000
+        - Name: `myapp`
+        - Image URI: ECR に登録したコンテナイメージの URI
+        - Container port: 3000
     - [Create] をクリックする
 
 3. Service を作成する
 左のナビゲーションペインから `Clusters` を選択して作成したクラスタを選択して Service タブから [Create] をクリックして以下の内容で Service を作成します。
     - Deployment configuration
-      - Family: `myapp-def`
-      - Service name: `myapp-svc`
+        - Family: `myapp-def`
+        - Service name: `myapp-svc`
     - Networking
-      - Security group: app  
-        __default のセキュリティグループは削除する__
+        - Security group: app  
+          __default のセキュリティグループは削除する__
     - Load balancing
-      - Load balancer type: Application Load Balancer
-      - Application Load Balancer: Use an existing load balancer
-      - Load balancer: `alb`
-      - Listener: Create new listener
-        - Port: 81
-        - Protocol: HTTP
+        - Load balancer type: Application Load Balancer
+        - Application Load Balancer: Use an existing load balancer
+        - Load balancer: `alb`
+        - Listener: Create new listener
+            - Port: 81
+            - Protocol: HTTP
 
     サービスが起動するまで待ちます。
 
