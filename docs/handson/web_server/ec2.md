@@ -68,7 +68,7 @@
     - Security group: 作成した ALB のセキュリティグループ  
       __default のセキュリティグループは削除すること__
 
-    Target groups からターゲットグループを作成します。  
+    Listeners and ruting で [Create target group] のリンクからターゲットグループを作成します。  
 
     - Target type: Instance
     - Target group name: `app-tg`
@@ -77,6 +77,14 @@
     - その他の設定はデフォルトのままで [Next] をクリックする
     - Register targets アプリケーションサーバの EC2 インスタンスを選択して [Include as pending below] をクリックする
     - [Create target group] をクリックする
+
+    Load Balancer のページに戻り Listener の設定を行います。
+
+    - Protocol: HTTP
+    - Port: 80
+    - Default action: 作成したターゲットグループを選択する
+
+    [Create load balancer] をクリックする
 
     Health status が `healthy` になるまで待ちます。
 
