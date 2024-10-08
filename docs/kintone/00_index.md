@@ -30,7 +30,7 @@ kintone のアカウントは作成済みです。
 #### スペースを作ってみる
 以下の設定値でスペースを作成してください。
 
-- [参考]((https://jp.cybozu.help/k/ja/start/space_create.html))
+- [参考](https://jp.cybozu.help/k/ja/start/space_create.html)
 
 __基本設定__
 
