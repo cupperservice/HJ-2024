@@ -39,7 +39,7 @@ export const handler = handle(app)
 
 ```bash
 npm run build
-npm zip
+npm run zip
 ```
 
 `lambda.zip` が作成されます。
