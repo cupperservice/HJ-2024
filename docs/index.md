@@ -32,6 +32,7 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 
 - 2024/10/8: [kintone の紹介](./kintone/00_index.md)
 - 2024/10/15: [アプリの作成と利用 / フォームの設定](./kintone/1015.md)
+- 2024/10/22: [フォームの設定](./kintone/1022.md)
 
 ## 課題一覧
 合格点は 80点です。  
@@ -81,6 +82,9 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 ### AWS ハンズオン
 - [EC2 で DB サーバを起動する / EC2 で Wordpress を起動する](./handson/0917.md)
 - [いろいろな方法でアプリケーションサーバを起動する](./handson/0924.md)
+
+### kintone
+- [5種類のフィールドを使用したアプリケーションの作成](./kintone/1015.md)
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
