@@ -38,6 +38,10 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 合格点は 80点です。  
 80点未満の場合は、再提出してください。
 
+### 課題の提出状況
+課題の提出状況は以下のアプリで確認してください。
+- [課題提出状況確認アプリ](https://p85tegk1vfh9.cybozu.com/k/65/)
+
 ### 知識確認テスト
 #### Cloud Foundations
 - Moudle 1 の知識確認テスト
@@ -85,6 +89,7 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 
 ### kintone
 - [5種類のフィールドを使用したアプリケーションの作成](./kintone/1015.md)
+- [3種類の関数を使用したアプリケーションの作成](./kintone/1022.md)
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
