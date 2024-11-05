@@ -104,6 +104,10 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 - [3種類の関数を使用したアプリケーションの作成](./kintone/1022.md)
 - [課題を解決するためのアプリケーションを作成する](./kintone/homework.md)
 
+### AWS Academy Lab Project - Cloud Web Application Builder [100669]
+- フェーズごとに完了の報告をして次のフェーズにすすんでください。
+- フェーズ 1 の タスク 2: 費用見積書の作成は不要です。
+
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
 現在、AWS Academy Cloud Foundations の受講を終えただけでは、AWS 認定クラウドプラクティショナーの割引バウチャーチケットの発行はしていないそうです。
