@@ -107,6 +107,7 @@ __[必須]__ その日の授業完了後に[レポート](https://p85tegk1vfh9.c
 ### AWS Academy Lab Project - Cloud Web Application Builder [100669]
 - フェーズごとに完了の報告をして次のフェーズにすすんでください。
 - フェーズ 1 の タスク 2: 費用見積書の作成は不要です。
+- [フェーズ 1 の タスク 1: アーキテクチャ図の作成のヒント](./aws-academy-cloud-web-application-builder/README.md)
 
 ### お知らせ
 #### [AWS 認定クラウドプラクティショナー](https://aws.amazon.com/jp/certification/certified-cloud-practitioner/) の受講について
